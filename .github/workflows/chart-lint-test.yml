@@ -3,6 +3,7 @@ name: Chart Lint and Test
 
 # yamllint disable-line rule:truthy
 on:
+  workflow_dispatch:
   push:
     paths:
       - 'charts/nfs-server-provisioner/**'
